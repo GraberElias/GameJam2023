@@ -24,10 +24,10 @@ public class MapBehaviour : MonoBehaviour
     {
 
         //tilemap.ClearAllTiles();
-        Debug.Log(tilePalette);
+        // Debug.Log(tilePalette);
 
         Tilemap tilePaletteMap = tilePalette.GetComponentInChildren<Tilemap>();
-        Debug.Log(tilePaletteMap);
+        // Debug.Log(tilePaletteMap);
 
         blockTiles = new TileBase[blockCount];
 
@@ -51,7 +51,7 @@ public class MapBehaviour : MonoBehaviour
 
         Vector3Int tileLocation = Vector3Int.FloorToInt(localPos);
         tileLocation.z = 0;
-        Debug.Log(string.Format("local [X: {0} Y: {1}]", tileLocation.x, tileLocation.y));
+        // Debug.Log(string.Format("local [X: {0} Y: {1}]", tileLocation.x, tileLocation.y));
 
         selectedBlock += (int)Input.mouseScrollDelta.y;
         selectedBlock = (selectedBlock + blockCount) % blockCount;
