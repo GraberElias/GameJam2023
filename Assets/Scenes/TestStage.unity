@@ -346,9 +346,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.008893216, y: -0.11616424}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.47832343
 --- !u!212 &623945587
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -409,7 +409,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623945584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.38, y: 0.13, z: 0}
+  m_LocalPosition: {x: -2.78, y: -1.23, z: 0}
   m_LocalScale: {x: 1.76, y: 1.76, z: 1.76}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -428,8 +428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbc84be0dad39c84480472e1efe4757d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acc: 10.4
-  maxSpeed: 23.54
+  acc: 5
+  maxSpeed: 20
   spawnPoint: {fileID: 1700528752}
 --- !u!1 &803158128
 GameObject:
@@ -508,7 +508,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.5, y: 0.5, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
